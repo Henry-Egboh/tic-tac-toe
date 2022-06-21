@@ -1,0 +1,34 @@
+img{
+    width: 22%;
+    float: left;
+    margin: 1.5%;
+    opacity: 1;
+    transition: opacity 0.25ms ease-in-out;
+}
+
+img:hover{
+    opacity: 0.4;
+    
+}
+
+h2{
+    margin-left: 1.5%;
+    margin-bottom: 0%;
+    color: #040a3f;
+    /*font-family: Verdana, Geneva, Tahoma, sans-serif;*/
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    border-bottom: 2px solid #0c0909;
+    letter-spacing: 1.5px;
+    /*padding: 20px;*/
+}
+
+#textright{
+    margin-left: 15%;
+    color: rgb(143, 9, 9);
+    font-family: 'Kalam', cursive;
+    font-size: 18px;
+    font-weight: 400px;
+    padding: 4px;
+}

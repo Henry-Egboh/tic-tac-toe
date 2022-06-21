@@ -1,0 +1,26 @@
+body{
+    font: 400 12px Verdana, Georgia, Ariel;
+}
+
+h1{
+    text-align: center;
+    }
+
+table{
+    margin: auto;
+}
+
+.vert{
+border-left: 2px solid blue;
+border-right: 2px solid blue;
+}
+
+.horizon{
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    }
+
+tr td{
+    width: 100px;
+    height: 100px;
+}

@@ -28,6 +28,7 @@ tr td {
     list-style-type: none;
     text-align: center;
     padding: 10px;
+    margin-top: 0px;
 }
 
 #nav ul li {
@@ -63,6 +64,12 @@ tr td {
 .gallery img:hover {
     opacity: 0.4;
 
+}
+
+#logo{
+    width: 150px;
+    height: 100px;
+    margin: 10px 10px 10px 60px;
 }
 
 /*=========================  HEADING ==================================*/

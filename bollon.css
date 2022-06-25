@@ -1,3 +1,8 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
 /* =====================================TABLE ============================*/
 table {
     margin: auto;
@@ -66,7 +71,14 @@ tr td {
 
 }
 
-#logo{
+/*img[title]{
+    border: 0px;
+    color: rgb(114, 23, 23);
+    font-size: 100%;
+    text-decoration: none;
+} */
+
+#logo {
     width: 150px;
     height: 100px;
     margin: 10px 10px 10px 60px;
@@ -88,7 +100,7 @@ h3 {
     font-weight: bolder;
     border-bottom: 2px solid #0c0909;
     letter-spacing: 1.5px;
-    /*padding: 20px;*/
+    width: 97%;
 }
 
 .headings a {
@@ -107,4 +119,42 @@ h3 {
     font-size: 18px;
     font-weight: 400px;
     padding: 4px;
+}
+
+/* ============================FOOTER ===================================================*/
+.footer {
+    width: 100%;
+    background-color: #0c0909;
+    float: left;
+    color: whitesmoke;
+    margin: auto;
+}
+
+#footer ul{
+    list-style-type: none;
+    font: 400 18px Verdana, Cambria, 'sans-serif';
+    padding: 10px;
+    margin: 20px;
+}
+#footer ul li{
+display: block;
+border: 2px groove #faf8f8;
+background: linear-gradient(#332, #faf8f8);
+padding: 5px;
+margin: 10px;
+width: 120px;
+text-align: left;
+
+}
+
+#footer ul li a{
+    text-decoration: none;
+    /*color: rgb(231, 233, 148);*/
+    color: rgb(143, 9, 9);
+}
+
+#copyright{
+
+    text-align: center;
+    font: 300 14px 'Courier New', Courier, monospace;
 }

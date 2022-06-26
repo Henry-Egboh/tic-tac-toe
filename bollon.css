@@ -1,27 +1,26 @@
-body{
+body {
     padding: 0%;
     margin: 0%;
 }
 
 /* =====================================TABLE ============================*/
-table {
+table#tictac {
     margin: auto;
 }
 
-.vert {
+#tictac .vert {
     border-left: 2px solid blue;
     border-right: 2px solid blue;
 }
 
-.horizon {
+#tictac .horizon {
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
 }
 
-tr td {
+#tictac tr td {
     width: 100px;
     height: 100px;
-    background-color: #0c0909;
 }
 
 
@@ -70,13 +69,6 @@ tr td {
     opacity: 0.4;
 
 }
-
-/*img[title]{
-    border: 0px;
-    color: rgb(114, 23, 23);
-    font-size: 100%;
-    text-decoration: none;
-} */
 
 #logo {
     width: 150px;
@@ -127,34 +119,100 @@ h3 {
     background-color: #0c0909;
     float: left;
     color: whitesmoke;
-    margin: auto;
 }
 
-#footer ul{
+#leftfooter {
+    width: 25%;
+    background: #e01313;
+}
+
+#leftfooter ul {
     list-style-type: none;
     font: 400 18px Verdana, Cambria, 'sans-serif';
-    padding: 10px;
-    margin: 20px;
+    padding: 10px 0px;
+    margin: 20px 0px 20px 14px;
 }
-#footer ul li{
-display: block;
-border: 2px groove #faf8f8;
-background: linear-gradient(#332, #faf8f8);
-padding: 5px;
-margin: 10px;
-width: 120px;
-text-align: left;
+
+#leftfooter ul li {
+    display: block;
+    border: 2px groove #faf8f8;
+    background: linear-gradient(#332, #faf8f8);
+    padding: 5px 0px;
+    margin: 10px 0px;
+    width: 300px;
+    text-align: left;
 
 }
 
-#footer ul li a{
+#leftfooter ul li a {
     text-decoration: none;
     /*color: rgb(231, 233, 148);*/
     color: rgb(143, 9, 9);
+    padding: 10px;
 }
 
-#copyright{
+#rightfooter {
+    background-color: #faf8f8;
+}
 
+#copyright {
     text-align: center;
     font: 300 14px 'Courier New', Courier, monospace;
+}
+
+.closefooter{
+    clear: both;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 48
+}
+
+/*=======================blog page CSS ==================================*/
+
+table#datatable, th, td{
+margin: 40px auto;
+border: 2px ridge #218366;
+border-collapse: collapse;
+padding: 10px;
+text-align: center;
+}
+
+table#datatable{
+width: 50%;
+}
+
+table#datatable th.colresize, td.colresize{
+    width: 50%;
+    background-color: #775f5f;
+}
+
+table#datatable tr{
+    height: 80px;
+}
+
+table#datatable1, th, td{
+    border: 2px ridge #218366;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+table#datatable1{
+    width: 30%;
+    margin: auto;
+    }
+
+table#datatable1 tr{
+    height: 40px;
+}
+
+table caption{
+    font: 600 14px Ariel, Verdana, 'sans-serif';
+    color: #2a3f04;
+    padding: 10px;
 }
